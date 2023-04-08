@@ -178,6 +178,8 @@ h1 {
 }
 .overlay .icons-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .overlay i {
     color:  #a5f3fc;
@@ -266,7 +268,8 @@ h1 {
 }
 .contact .rectangle {
     margin-top: 1rem;
-    background-color: rgb(13, 110,253);
+    background-color: #172554;
+    /* background-color: #B08780; */
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;
 }
@@ -300,6 +303,52 @@ h1 {
 }
 .contact button:hover i {
     color: black;
+}
+
+/* Footer Section */
+footer {
+    min-height: 500px;
+}
+.footer-logo {
+    height: 80px;
+    margin: 10px;
+}
+.footer-text {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+.icons-social-networks a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid #ccfbf1;
+    border-radius:50%;
+    transition: all 0.2s ease-in;
+}
+.icons-social-networks a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110,253);
+}
+.icons-social-networks i {
+    color: #fde68a;
+    font-size: 1.5rem;
+    transition:  all 0.2s ease-in;
+}
+.icons-social-networks a:hover i {
+    color: black;
+}
+
+/* Section Copyright */
+.copy-right {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
 }
 
 
