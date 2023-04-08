@@ -178,6 +178,8 @@ h1 {
 }
 .overlay .icons-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .overlay i {
     color:  #a5f3fc;
