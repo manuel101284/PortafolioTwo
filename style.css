@@ -140,6 +140,7 @@ h1 {
 /* Projects Section */
 .recent-projects {
     padding: 40px;
+    text-align: center;
 }
 .recent-projects img {
     height: 100%;
